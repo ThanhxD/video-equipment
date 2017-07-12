@@ -1,0 +1,36 @@
+body {
+    display: block;
+}
+
+span {
+    color: white;
+    font-size: 22;
+    align-self: center;
+}
+
+.container {
+    display: flex;
+}
+
+.container .button {
+    height: 50px;
+}
+
+.container .volume {
+    width: 150px;
+    float: left;
+    background-color: black;
+    display: inline-flex;
+    border-radius: 10px;
+}
+
+#control {
+
+}
+
+.container .brightness {
+    width: 50px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9bpJx9x4NkOvCPdfUYAdM_jUMroUmQd4wbdmkTrI4X3_DdqV6');
+    background-repeat: no-repeat;
+    background-size: contain;
+}

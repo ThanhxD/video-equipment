@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Video Equipment",
+  "description": "Volume up and Brightness",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [{
+    "matches": ["https://www.youtube.com/*"],
+    "js": ["content-script.js"]
+  }],
+  "permissions": [
+    "activeTab",
+    "<all_urls>"
+  ]
+}
